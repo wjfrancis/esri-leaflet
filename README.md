@@ -74,7 +74,7 @@ The easiest way to get started is to load Esri Leaflet via [CDN](https://unpkg.c
       L.esri.basemapLayer("Gray").addTo(map);
 
       var parks = L.esri.featureLayer({
-        url: "https://services.arcgis.com/rOo16HdIMeOBI4Mb/arcgis/rest/services/Portland_Parks/FeatureServer/0",
+        url: "https://services1.arcgis.com/wfNKYeHsOyaFyPw3/arcgis/rest/services/commonwealth_electoral_boundaries/FeatureServer/0",
         style: function () {
           return { color: "#70ca49", weight: 2 };
         }
